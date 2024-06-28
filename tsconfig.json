@@ -22,8 +22,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": false,
-    "jsx": "react-jsx",
-    "types": ["node", "react"]
+    "jsx": "react-jsx"
   },
   "exclude": ["**/.*/", "**/dist", "**/node_modules"]
 }

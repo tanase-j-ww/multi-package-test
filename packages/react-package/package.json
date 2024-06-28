@@ -23,7 +23,7 @@
   "keywords": [],
   "description": "",
   "dependencies": {
-    "@tanase-j-ww/ts-package": "workspaces:*"
+    "@tanase-j-ww/ts-package": "workspace:*"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
