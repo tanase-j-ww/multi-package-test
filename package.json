@@ -9,6 +9,8 @@
   "scripts": {
     "build": "lerna run build",
     "build:ci": "lerna run build",
+    "publish": "pnpm run set-tmp-env && pnpm publish --recursive",
+    "set-tmp-env": "node -r dotenv/config -e \"require('dotenv').config()\"",
     "test": "run-p -c test:*",
     "lint": "eslint --ext .js,.ts src/ --fix",
     "lint:ci": "eslint --ext .js,.ts src/",
@@ -20,6 +22,7 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.14.1",
     "@typescript-eslint/parser": "^7.14.1",
+    "dotenv": "^16.4.5",
     "eslint": "^8.57.0",
     "eslint-plugin-import": "^2.29.1",
     "lerna": "^8.1.5",
