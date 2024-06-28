@@ -1,5 +1,5 @@
 {
-  "name": "multi-package-test",
+  "name": "@tanase-j-ww/multi-package-test",
   "private": true,
   "workspaces": [
     "packages/*"
