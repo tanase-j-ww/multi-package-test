@@ -23,6 +23,6 @@ openapi.yaml
 *.sw?
 .env
 
-.npmrc
+*.npmrc
 
 *:Zone.Identifier
